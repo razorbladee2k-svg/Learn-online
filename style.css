@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: white;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.top-actions button {
+  margin-left: 10px;
+}
+
+.page {
+  display: none;
+  max-width: 400px;
+  margin: 80px auto;
+  background: white;
+  color: black;
+  padding: 30px;
+  border-radius: 16px;
+}
+
+.page.active {
+  display: block;
+}
+
+input, textarea, button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+}
+
+button {
+  background: #4f46e5;
+  color: white;
+  cursor: pointer;
+}
+
+button.logout {
+  background: #dc2626;
+}
+
+textarea {
+  height: 120px;
+}
+
+.dark body {
+  background: #0f172a;
+}
